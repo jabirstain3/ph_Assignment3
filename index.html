@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fruit Brast</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="border w-11/12 md:w-4/5 lg:w-3/4 mx-auto">
+    <header class=" my-6 md:my-10">
+        <nav class="bg-orange-600 rounded-full px-4 py-1 align-middle">
+            <div class="navbar md:flex md:justify-between lg:navbar">
+                <div class="hidden lg:block">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All fruits</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-center w-full flex justify-between md:navbar-start md:w-3/5 lg:w-max">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost p-2 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1]  shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All fruits</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex ">
+                        <img class="my-auto w-9 h-10 md:w-10 md:h-12" src="images/logo.png" alt=""> 
+                        <a class="btn btn-ghost normal-case text-base align-middle p-1">Fruit Brast</a>
+                    </div>
+                </div>
+                <div class="hidden md:block md:navbar-end">
+                    <div class="form-control  relative align-middle md:w-40 lg:w-80">
+                        <input  type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto rounded-full" />
+                        <svg class=" w-6 h-6 absolute right-3 top-3" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>   
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
